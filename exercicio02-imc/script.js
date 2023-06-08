@@ -1,6 +1,6 @@
-var altura = prompt("Digite sua altura em metros: ");
-var peso = prompt("Digite seu peso: ");
+var altura = Number(prompt("Digite sua altura em metros: "));
+var peso = Number(prompt("Digite seu peso: "));
 
-var imc = Number(peso) / (Number(altura) * Number(altura));
+var imc = peso / ((altura) * (altura));
 
 alert("O seu IMC é de  " + imc + ".");
